@@ -1,3 +1,3 @@
 FROM adoptopenjdk/openjdk11:alpine-jre
-ADD target/audit-auth.jar audit-auth.jar
-ENTRYPOINT ["java","-jar", "/audit-auth.jar"]
+ADD target/audit-severity.jar audit-severity.jar
+ENTRYPOINT ["java","-jar", "/audit-severity.jar"]
